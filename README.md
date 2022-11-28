@@ -59,7 +59,7 @@ RUN dnf config-manager --set-enabled powertools
 RUN dnf install -y python3-openimageio python3-numpy
 ```
 ```terminal:terminal
-docker pull plinecom/py_exr_oiio
+docker pull plinecom/py_oiio
 ```
 
 # Description of the low-level API version of the code
